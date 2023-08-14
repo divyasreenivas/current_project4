@@ -21,18 +21,34 @@ button{
     padding-left: 20px;
     padding-right:20px; */
     border: 1px solid #5f9341;
+    cursor: pointer;
 }
 #delete-btn{
         color: #5f9341 ;
         background-color: rgb(252, 253, 254);
+        cursor: pointer;
+}
+
+
+table,th,td{
+    border: 1px solid black;
+    margin: 1px;
+}
+table{
+    margin-top: 10px;
 }
 ul{
     margin-top: 20px;
     list-style:none;
     padding-left: 0%;
+    max-width: 300px;
+    overflow-x: scroll;
+    margin-right: 10px;
 }
 li{
-    margin-top: 5px;
+    margin: 10px;
+    display: flex;
+    margin-left: 0px;
 
 }
 li a{
